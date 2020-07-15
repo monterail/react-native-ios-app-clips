@@ -14,6 +14,15 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		1BEAC47F9E81B6EB64C67FB9 /* libPods-ReactNativeAppClips-ReactNativeAppClipsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B30776DFD715B26B95D508 /* libPods-ReactNativeAppClips-ReactNativeAppClipsTests.a */; };
 		5C4F0F3C6655378DEAE0E3F4 /* libPods-ReactNativeAppClips.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E21E828038737B9714057C /* libPods-ReactNativeAppClips.a */; };
+		D18B86FEBDBDD68B29692C8D /* libPods-ReactNativeAppClips-ReactNativeAppClip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD2EF478E2E7439F4E59E3 /* libPods-ReactNativeAppClips-ReactNativeAppClip.a */; };
+		E9E219A024BF239A00A0E6AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E2199F24BF239A00A0E6AF /* AppDelegate.m */; };
+		E9E219A324BF239A00A0E6AF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E219A224BF239A00A0E6AF /* SceneDelegate.m */; };
+		E9E219A624BF239B00A0E6AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E219A524BF239B00A0E6AF /* ViewController.m */; };
+		E9E219A924BF239B00A0E6AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E219A724BF239B00A0E6AF /* Main.storyboard */; };
+		E9E219AB24BF239C00A0E6AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E219AA24BF239C00A0E6AF /* Assets.xcassets */; };
+		E9E219AE24BF239C00A0E6AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E219AC24BF239C00A0E6AF /* LaunchScreen.storyboard */; };
+		E9E219B124BF239C00A0E6AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E219B024BF239C00A0E6AF /* main.m */; };
+		E9E219B524BF239C00A0E6AF /* ReactNativeAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = E9E2199C24BF239A00A0E6AF /* ReactNativeAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +33,28 @@
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = ReactNativeAppClips;
 		};
+		E9E219B324BF239C00A0E6AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9E2199B24BF239A00A0E6AF;
+			remoteInfo = ReactNativeAppClip;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E9E219B924BF239C00A0E6AF /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				E9E219B524BF239C00A0E6AF /* ReactNativeAppClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
@@ -43,9 +73,25 @@
 		65463233897B14130F548DE0 /* Pods-ReactNativeAppClips-ReactNativeAppClipsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeAppClips-ReactNativeAppClipsTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeAppClips-ReactNativeAppClipsTests/Pods-ReactNativeAppClips-ReactNativeAppClipsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7CBCAFEF659B2AFC9C0579E9 /* Pods-ReactNativeAppClips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeAppClips.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeAppClips/Pods-ReactNativeAppClips.debug.xcconfig"; sourceTree = "<group>"; };
 		8F2C34AE8B7B3617F7DE7C38 /* Pods-ReactNativeAppClips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeAppClips.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeAppClips/Pods-ReactNativeAppClips.release.xcconfig"; sourceTree = "<group>"; };
+		AA3A03694A0B3D132D78D66A /* Pods-ReactNativeAppClips-ReactNativeAppClip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeAppClips-ReactNativeAppClip.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeAppClips-ReactNativeAppClip/Pods-ReactNativeAppClips-ReactNativeAppClip.debug.xcconfig"; sourceTree = "<group>"; };
+		CEAD2EF478E2E7439F4E59E3 /* libPods-ReactNativeAppClips-ReactNativeAppClip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeAppClips-ReactNativeAppClip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3B3EE768508CBCECB4E5DD8 /* Pods-ReactNativeAppClips-ReactNativeAppClipsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeAppClips-ReactNativeAppClipsTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeAppClips-ReactNativeAppClipsTests/Pods-ReactNativeAppClips-ReactNativeAppClipsTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9E2199C24BF239A00A0E6AF /* ReactNativeAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E2199E24BF239A00A0E6AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9E2199F24BF239A00A0E6AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9E219A124BF239A00A0E6AF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E9E219A224BF239A00A0E6AF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E9E219A424BF239A00A0E6AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E9E219A524BF239B00A0E6AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9E219A824BF239B00A0E6AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9E219AA24BF239C00A0E6AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9E219AD24BF239C00A0E6AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9E219AF24BF239C00A0E6AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E219B024BF239C00A0E6AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9E219B224BF239C00A0E6AF /* ReactNativeAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReactNativeAppClip.entitlements; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		FDAB9F0CF968D191D45EDBD8 /* Pods-ReactNativeAppClips-ReactNativeAppClip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeAppClips-ReactNativeAppClip.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeAppClips-ReactNativeAppClip/Pods-ReactNativeAppClips-ReactNativeAppClip.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +108,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C4F0F3C6655378DEAE0E3F4 /* libPods-ReactNativeAppClips.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E2199924BF239A00A0E6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18B86FEBDBDD68B29692C8D /* libPods-ReactNativeAppClips-ReactNativeAppClip.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +160,7 @@
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				43E21E828038737B9714057C /* libPods-ReactNativeAppClips.a */,
 				14B30776DFD715B26B95D508 /* libPods-ReactNativeAppClips-ReactNativeAppClipsTests.a */,
+				CEAD2EF478E2E7439F4E59E3 /* libPods-ReactNativeAppClips-ReactNativeAppClip.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,6 +178,7 @@
 				13B07FAE1A68108700A75B9A /* ReactNativeAppClips */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ReactNativeAppClipsTests */,
+				E9E2199D24BF239A00A0E6AF /* ReactNativeAppClip */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E19065D77FDCB9E281FA08B6 /* Pods */,
@@ -137,6 +193,7 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* ReactNativeAppClips.app */,
 				00E356EE1AD99517003FC87E /* ReactNativeAppClipsTests.xctest */,
+				E9E2199C24BF239A00A0E6AF /* ReactNativeAppClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,8 +205,29 @@
 				8F2C34AE8B7B3617F7DE7C38 /* Pods-ReactNativeAppClips.release.xcconfig */,
 				65463233897B14130F548DE0 /* Pods-ReactNativeAppClips-ReactNativeAppClipsTests.debug.xcconfig */,
 				E3B3EE768508CBCECB4E5DD8 /* Pods-ReactNativeAppClips-ReactNativeAppClipsTests.release.xcconfig */,
+				AA3A03694A0B3D132D78D66A /* Pods-ReactNativeAppClips-ReactNativeAppClip.debug.xcconfig */,
+				FDAB9F0CF968D191D45EDBD8 /* Pods-ReactNativeAppClips-ReactNativeAppClip.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9E2199D24BF239A00A0E6AF /* ReactNativeAppClip */ = {
+			isa = PBXGroup;
+			children = (
+				E9E2199E24BF239A00A0E6AF /* AppDelegate.h */,
+				E9E2199F24BF239A00A0E6AF /* AppDelegate.m */,
+				E9E219A124BF239A00A0E6AF /* SceneDelegate.h */,
+				E9E219A224BF239A00A0E6AF /* SceneDelegate.m */,
+				E9E219A424BF239A00A0E6AF /* ViewController.h */,
+				E9E219A524BF239B00A0E6AF /* ViewController.m */,
+				E9E219A724BF239B00A0E6AF /* Main.storyboard */,
+				E9E219AA24BF239C00A0E6AF /* Assets.xcassets */,
+				E9E219AC24BF239C00A0E6AF /* LaunchScreen.storyboard */,
+				E9E219AF24BF239C00A0E6AF /* Info.plist */,
+				E9E219B024BF239C00A0E6AF /* main.m */,
+				E9E219B224BF239C00A0E6AF /* ReactNativeAppClip.entitlements */,
+			);
+			path = ReactNativeAppClip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,15 +262,36 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				E9E219B924BF239C00A0E6AF /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E9E219B424BF239C00A0E6AF /* PBXTargetDependency */,
 			);
 			name = ReactNativeAppClips;
 			productName = ReactNativeAppClips;
 			productReference = 13B07F961A680F5B00A75B9A /* ReactNativeAppClips.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E9E2199B24BF239A00A0E6AF /* ReactNativeAppClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9E219B624BF239C00A0E6AF /* Build configuration list for PBXNativeTarget "ReactNativeAppClip" */;
+			buildPhases = (
+				809DC6CDC85336D386921508 /* [CP] Check Pods Manifest.lock */,
+				E9E2199824BF239A00A0E6AF /* Sources */,
+				E9E2199924BF239A00A0E6AF /* Frameworks */,
+				E9E2199A24BF239A00A0E6AF /* Resources */,
+				E9E219BA24BF488100A0E6AF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactNativeAppClip;
+			productName = ReactNativeAppClip;
+			productReference = E9E2199C24BF239A00A0E6AF /* ReactNativeAppClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
 /* End PBXNativeTarget section */
 
@@ -209,6 +308,11 @@
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = 5U78PH64YM;
 						LastSwiftMigration = 1120;
+					};
+					E9E2199B24BF239A00A0E6AF = {
+						CreatedOnToolsVersion = 12.0;
+						DevelopmentTeam = 5U78PH64YM;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -227,6 +331,7 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* ReactNativeAppClips */,
 				00E356ED1AD99517003FC87E /* ReactNativeAppClipsTests */,
+				E9E2199B24BF239A00A0E6AF /* ReactNativeAppClip */,
 			);
 		};
 /* End PBXProject section */
@@ -245,6 +350,16 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E2199A24BF239A00A0E6AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E219AE24BF239C00A0E6AF /* LaunchScreen.storyboard in Resources */,
+				E9E219AB24BF239C00A0E6AF /* Assets.xcassets in Resources */,
+				E9E219A924BF239B00A0E6AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +402,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		809DC6CDC85336D386921508 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeAppClips-ReactNativeAppClip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C43DBBA805FAD0B2901AC385 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -308,6 +445,23 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		E9E219BA24BF488100A0E6AF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh index.appclip.js\n";
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -348,6 +502,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9E2199824BF239A00A0E6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E219A624BF239B00A0E6AF /* ViewController.m in Sources */,
+				E9E219A024BF239A00A0E6AF /* AppDelegate.m in Sources */,
+				E9E219B124BF239C00A0E6AF /* main.m in Sources */,
+				E9E219A324BF239A00A0E6AF /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -355,6 +520,11 @@
 			isa = PBXTargetDependency;
 			target = 13B07F861A680F5B00A75B9A /* ReactNativeAppClips */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		E9E219B424BF239C00A0E6AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9E2199B24BF239A00A0E6AF /* ReactNativeAppClip */;
+			targetProxy = E9E219B324BF239C00A0E6AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -366,6 +536,22 @@
 			);
 			name = LaunchScreen.xib;
 			path = ReactNativeAppClips;
+			sourceTree = "<group>";
+		};
+		E9E219A724BF239B00A0E6AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9E219A824BF239B00A0E6AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9E219AC24BF239C00A0E6AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9E219AD24BF239C00A0E6AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -436,10 +622,11 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monterail.ReactNativeAppClips;
 				PRODUCT_NAME = ReactNativeAppClips;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -459,9 +646,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.monterail.ReactNativeAppClips;
 				PRODUCT_NAME = ReactNativeAppClips;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -497,6 +685,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -558,6 +747,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -578,6 +768,62 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9E219B724BF239C00A0E6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3A03694A0B3D132D78D66A /* Pods-ReactNativeAppClips-ReactNativeAppClip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = ReactNativeAppClip/ReactNativeAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5U78PH64YM;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ReactNativeAppClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monterail.ReactNativeAppClips.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9E219B824BF239C00A0E6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDAB9F0CF968D191D45EDBD8 /* Pods-ReactNativeAppClips-ReactNativeAppClip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = ReactNativeAppClip/ReactNativeAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5U78PH64YM;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ReactNativeAppClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monterail.ReactNativeAppClips.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -607,6 +853,15 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9E219B624BF239C00A0E6AF /* Build configuration list for PBXNativeTarget "ReactNativeAppClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E219B724BF239C00A0E6AF /* Debug */,
+				E9E219B824BF239C00A0E6AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
