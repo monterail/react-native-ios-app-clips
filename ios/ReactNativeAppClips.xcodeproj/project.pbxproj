@@ -89,6 +89,7 @@
 		E9E219AF24BF239C00A0E6AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9E219B024BF239C00A0E6AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9E219B224BF239C00A0E6AF /* ReactNativeAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReactNativeAppClip.entitlements; sourceTree = "<group>"; };
+		E9E219BB24C0663200A0E6AF /* ReactNativeAppClips.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = ReactNativeAppClips.entitlements; path = ReactNativeAppClips/ReactNativeAppClips.entitlements; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		FDAB9F0CF968D191D45EDBD8 /* Pods-ReactNativeAppClips-ReactNativeAppClip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeAppClips-ReactNativeAppClip.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeAppClips-ReactNativeAppClip/Pods-ReactNativeAppClips-ReactNativeAppClip.release.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +143,7 @@
 		13B07FAE1A68108700A75B9A /* ReactNativeAppClips */ = {
 			isa = PBXGroup;
 			children = (
+				E9E219BB24C0663200A0E6AF /* ReactNativeAppClips.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -608,6 +610,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ReactNativeAppClips/ReactNativeAppClips.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5U78PH64YM;
 				ENABLE_BITCODE = NO;
@@ -637,6 +640,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ReactNativeAppClips/ReactNativeAppClips.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5U78PH64YM;
 				INFOPLIST_FILE = ReactNativeAppClips/Info.plist;

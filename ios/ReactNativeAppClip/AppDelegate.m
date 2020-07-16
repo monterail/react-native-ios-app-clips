@@ -19,6 +19,22 @@
     return YES;
 }
 
+-(BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray * _Nullable))restorationHandler{
+    if ([userActivity.activityType isEqualToString: NSUserActivityTypeBrowsingWeb]) {
+        NSURL *url = userActivity.webpageURL;
+      NSLog(@" Userinfo Data==>%@  useractivityTitle ==>%@  activityType-->%@ webpage-->%@",userActivity.userInfo , userActivity.title,userActivity.activityType,userActivity.webpageURL );
+
+    }
+
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application willContinueUserActivityWithType:(NSString *)userActivityType
+{
+  return YES;
+}
+
+
 
 #pragma mark - UISceneSession lifecycle
 
