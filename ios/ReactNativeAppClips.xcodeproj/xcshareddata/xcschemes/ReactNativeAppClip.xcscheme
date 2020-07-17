@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "ReactNativeAppClips.app"
-               BlueprintName = "ReactNativeAppClips"
+               BlueprintIdentifier = "E9E2199B24BF239A00A0E6AF"
+               BuildableName = "ReactNativeAppClip.app"
+               BlueprintName = "ReactNativeAppClip"
                ReferencedContainer = "container:ReactNativeAppClips.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,16 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "ReactNativeAppClipsTests.xctest"
-               BlueprintName = "ReactNativeAppClipsTests"
-               ReferencedContainer = "container:ReactNativeAppClips.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -54,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ReactNativeAppClips.app"
-            BlueprintName = "ReactNativeAppClips"
+            BlueprintIdentifier = "E9E2199B24BF239A00A0E6AF"
+            BuildableName = "ReactNativeAppClip.app"
+            BlueprintName = "ReactNativeAppClip"
             ReferencedContainer = "container:ReactNativeAppClips.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -78,9 +68,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ReactNativeAppClips.app"
-            BlueprintName = "ReactNativeAppClips"
+            BlueprintIdentifier = "E9E2199B24BF239A00A0E6AF"
+            BuildableName = "ReactNativeAppClip.app"
+            BlueprintName = "ReactNativeAppClip"
             ReferencedContainer = "container:ReactNativeAppClips.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

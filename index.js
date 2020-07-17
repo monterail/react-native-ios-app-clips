@@ -23,9 +23,7 @@ const App = () => (
       alignItems: 'center',
     }}>
     <Text>ReactNative App Clips</Text>
-    <OpenURLButton url="https://tomasz.kania.orzel.me">
-      Open App Clip
-    </OpenURLButton>
+    <OpenURLButton url="https://monterail.com">Open App Clip</OpenURLButton>
   </View>
 );
 
