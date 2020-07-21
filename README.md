@@ -2,7 +2,7 @@
 
 > Adding iOS 14 App Clips to ReactNative apps.
 
-![Hero App Clips from Apple - https://developer.apple.com/app-clips/](./docs/hero.png)
+![Hero App Clips from Apple - https://developer.apple.com/app-clips/](https://github.com/monterail/react-native-ios-app-clips/raw/master/docs/hero.png)
 
 **This library is under heavy development!**
 
