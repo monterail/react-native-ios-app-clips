@@ -1,7 +1,16 @@
 {
   "name": "react-native-ios-app-clips",
+  "description": "iOS 14 App Clips in React Native",
+  "license": "MIT",
   "version": "0.1.0",
-  "private": true,
+  "keywords": [
+    "app",
+    "clips",
+    "ios",
+    "react",
+    "native",
+    "react-native"
+  ],
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
