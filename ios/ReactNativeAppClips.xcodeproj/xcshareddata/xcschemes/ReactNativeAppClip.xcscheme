@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "ReactNativeAppClips-tvOS.app"
-               BlueprintName = "ReactNativeAppClips-tvOS"
+               BlueprintIdentifier = "E9E2199B24BF239A00A0E6AF"
+               BuildableName = "ReactNativeAppClip.app"
+               BlueprintName = "ReactNativeAppClip"
                ReferencedContainer = "container:ReactNativeAppClips.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,16 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "ReactNativeAppClips-tvOSTests.xctest"
-               BlueprintName = "ReactNativeAppClips-tvOSTests"
-               ReferencedContainer = "container:ReactNativeAppClips.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -54,12 +44,19 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ReactNativeAppClips-tvOS.app"
-            BlueprintName = "ReactNativeAppClips-tvOS"
+            BlueprintIdentifier = "E9E2199B24BF239A00A0E6AF"
+            BuildableName = "ReactNativeAppClip.app"
+            BlueprintName = "ReactNativeAppClip"
             ReferencedContainer = "container:ReactNativeAppClips.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "_XCAppClipURL"
+            value = "https://monterail.com"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -71,9 +68,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ReactNativeAppClips-tvOS.app"
-            BlueprintName = "ReactNativeAppClips-tvOS"
+            BlueprintIdentifier = "E9E2199B24BF239A00A0E6AF"
+            BuildableName = "ReactNativeAppClip.app"
+            BlueprintName = "ReactNativeAppClip"
             ReferencedContainer = "container:ReactNativeAppClips.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

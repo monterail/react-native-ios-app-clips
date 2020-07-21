@@ -82,6 +82,11 @@ target 'ReactNativeAppClips' do
     # Pods for testing
   end
 
+  target 'ReactNativeAppClip' do
+    inherit! :complete
+    # Pods for testing
+  end
+  
   use_native_modules!
 
   # Enables Flipper.
@@ -94,11 +99,3 @@ target 'ReactNativeAppClips' do
   end
 end
 
-target 'ReactNativeAppClips-tvOS' do
-  # Pods for ReactNativeAppClips-tvOS
-
-  target 'ReactNativeAppClips-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-end
