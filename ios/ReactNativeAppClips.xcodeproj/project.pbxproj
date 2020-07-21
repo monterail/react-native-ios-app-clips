@@ -76,6 +76,8 @@
 		AA3A03694A0B3D132D78D66A /* Pods-ReactNativeAppClips-ReactNativeAppClip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeAppClips-ReactNativeAppClip.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeAppClips-ReactNativeAppClip/Pods-ReactNativeAppClips-ReactNativeAppClip.debug.xcconfig"; sourceTree = "<group>"; };
 		CEAD2EF478E2E7439F4E59E3 /* libPods-ReactNativeAppClips-ReactNativeAppClip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeAppClips-ReactNativeAppClip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3B3EE768508CBCECB4E5DD8 /* Pods-ReactNativeAppClips-ReactNativeAppClipsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeAppClips-ReactNativeAppClipsTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeAppClips-ReactNativeAppClipsTests/Pods-ReactNativeAppClips-ReactNativeAppClipsTests.release.xcconfig"; sourceTree = "<group>"; };
+		E90057F424C6E9B4005BF1C9 /* ReactNativeAppClipDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReactNativeAppClipDebug.entitlements; sourceTree = "<group>"; };
+		E90057F524C6EB1A005BF1C9 /* ReactNativeAppClipsDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = ReactNativeAppClipsDebug.entitlements; path = ReactNativeAppClips/ReactNativeAppClipsDebug.entitlements; sourceTree = "<group>"; };
 		E9E2199C24BF239A00A0E6AF /* ReactNativeAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E2199E24BF239A00A0E6AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E9E2199F24BF239A00A0E6AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		13B07FAE1A68108700A75B9A /* ReactNativeAppClips */ = {
 			isa = PBXGroup;
 			children = (
+				E90057F524C6EB1A005BF1C9 /* ReactNativeAppClipsDebug.entitlements */,
 				E9E219BB24C0663200A0E6AF /* ReactNativeAppClips.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -216,6 +219,7 @@
 		E9E2199D24BF239A00A0E6AF /* ReactNativeAppClip */ = {
 			isa = PBXGroup;
 			children = (
+				E90057F424C6E9B4005BF1C9 /* ReactNativeAppClipDebug.entitlements */,
 				E9E2199E24BF239A00A0E6AF /* AppDelegate.h */,
 				E9E2199F24BF239A00A0E6AF /* AppDelegate.m */,
 				E9E219A124BF239A00A0E6AF /* SceneDelegate.h */,
@@ -610,7 +614,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = ReactNativeAppClips/ReactNativeAppClips.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ReactNativeAppClips/ReactNativeAppClipsDebug.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5U78PH64YM;
 				ENABLE_BITCODE = NO;
@@ -787,7 +791,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = ReactNativeAppClip/ReactNativeAppClip.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ReactNativeAppClip/ReactNativeAppClipDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 5U78PH64YM;
