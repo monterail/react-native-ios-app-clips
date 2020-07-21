@@ -2,8 +2,6 @@
 //  ViewController.m
 //  ReactNativeAppClip
 //
-//  Created by Tomasz Kania-Orzeł on 15/07/2020.
-//
 
 #import "ViewController.h"
 #import <React/RCTBundleURLProvider.h>
